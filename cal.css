@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,500;1,400&family=Caveat&family=Fjalla+One&family=Hubballi&family=Press+Start+2P&family=Roboto&family=Roboto+Condensed&display=swap');
+
+
+#l{
+    /* margin-left:5rem; */
+    color:red;
+    font-size:48px; 
+}
+#logotag{
+    /* margin-left:3.5rem; */
+    font-family: 'Caveat', cursive;
+    font-size: 4rem;
+
+}
+nav{
+    background: #d3e9bab0; 
+}
+
+
+#main{
+    padding: 2rem;
+    background: #ccc8c844; 
+}
+
+.f_stage{
+    padding:0.8rem;
+    
+    
+}
+.f_stage:hover{
+    background-color:rgba(158, 230, 146, 0.781);
+    border-radius:8%;
+    transition:0.5s ease-in;
+}
+.s_stage{
+    padding:0.8rem;
+}
+.s_stage:hover{
+    background-color:rgba(241, 197, 155, 0.829);
+    border-radius:8%;
+    transition:0.5s ease-in;
+}
+.t_stage{
+    padding:0.8rem;
+}
+.t_stage:hover{
+    background-color:rgba(247, 97, 97, 0.829);
+    border-radius:8%;
+    transition:0.5s ease-in;
+}
+.fo_stage{
+    padding:0.8rem;
+}
+.fo_stage:hover{
+    background-color:rgba(158, 225, 228, 0.568);
+    border-radius:8%;
+    transition:0.5s ease-in;
+}
+#h_line{
+    width:20rem;
+    color:black;
+    padding:0.1rem;
+    animation-name:linee;
+    animation-duration:8s;
+}
+@keyframes linee{
+    from {color: black;}
+  to {color: rgb(15, 68, 68);}
+}
